@@ -1,0 +1,16 @@
+body{
+	background-color:#abc;
+}
+
+.container{
+	background-color:black;
+	color:white;
+}
+
+.jaune{
+	background-color:yellow;
+	color:black;
+}
+section{
+	background-color:green;
+}

@@ -1,0 +1,103 @@
+html{
+	width:100%;
+	height:100%
+}
+
+body{
+	background-size:100%;
+	width:100%;
+	height:100%;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: 300 200;
+}
+
+#form{
+	min-width:350px;
+}
+
+.navbar{
+	border:none;
+	height:40px;
+}
+
+.navbar a{
+	color:#555;
+	border-top:5px solid #fff;
+	border-bottom:5px solid #fff;
+	transition:0.3s;
+	width:110px;
+}
+a.col-md-2.col-md-offset-5{
+	width:200px;
+}
+.navbar a:hover{
+	color:#10A0E8;
+	border-bottom:5px solid #10A0E8;
+	text-decoration:none;
+}
+
+#welcome{
+	margin-top:55px;
+}
+
+#connexion{
+	margin-top:65px;
+	border-radius:5px;
+	padding:10px;
+	background-color:white;
+}
+
+#inscription{
+	border-radius:5px;
+	padding:10px;
+	background-color:white;
+}
+
+#inscription .btn{
+	color:black;
+}
+
+.btn{
+	width:100%;
+}
+
+#forgot{
+	line-height:25px;
+}
+
+nav{
+	line-height:40px;
+}
+
+#langage{
+	margin-right:50px;
+}
+
+h1{
+	color:white;
+	margin-bottom:40px;
+	font-weight:bold;
+}
+
+form{
+	margin-bottom:10px;
+}
+
+.form-group{
+	margin-bottom:5px;
+}
+
+.checkbox{
+	margin-top:3px;
+	padding-left:10px
+}
+
+p{
+	color:white;
+	font-size:22px;
+}
+
+.info p{
+	font-size:15px;
+}

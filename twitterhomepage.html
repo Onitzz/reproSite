@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/exotwitter.css" />
+  </head>
+  <body id="background">
+		<nav class="container-fluid navbar navbar-default">
+			<div class="row">
+				<a href="#" class="col-md-2 col-md-offset-1 col-xs-12"><img src="image/twitterlogo.png">  Acceuil</a>
+  			<a href="#" class="col-md-2 text-center col-xs-12">A propos</a>
+				<a href="#" class="col-md-2 col-md-offset-5 text-center col-xs-12" id="langage">Langage: Francais</a>
+			</div>
+		</nav>
+		<div class="container-fluid corp">
+			<div class="row">
+				<div id="welcome" class="col-md-4 col-md-offset-2">
+					<h1>Welcome to Twitter.</h1>
+					<p id="text-left">
+						Connect with your friends -- and other fascinating people. Get in the moment updates on the things that interest you. And watch events unfold, in real time, from every angle.
+					</p>
+				</div>
+				<div class="col-md-3 col-md-offset-1" id="form">
+					<div class="container-fluid">
+						<form id="connexion">
+							<div class="row">	
+								<div class="form-group col-md-12">
+									<input type="text" class="form-control" id="id" placeholder="Phone, Email or Username">
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-md-8">
+									<input type="password" class="form-control" id="Password" placeholder="Password">
+								</div>
+								<div class="form-group col-md-4">					
+									<button type="submit" class="btn btn-primary">Submit</button>
+								</div>
+							</div>
+							<div class="row">
+								<div class="checkbox col-md-6">
+									<label>
+										<input type="checkbox"> Remember me
+									</label>
+								</div>
+								<div id="forgot" class="col-md-6">
+									<a href="#">Forgot password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="container-fluid">		
+						<form id="inscription">
+							<h4>New to Twitter?<small> Sign up</small></h4>
+							<div class="row">	
+								<div class="form-group col-md-12">
+									<input type="text" class="form-control" id="name" placeholder="Full name">
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-md-12">
+									<input type="email" class="form-control" id="email" placeholder="Email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-md-12">
+									<input type="password" class="form-control" id="passwordins" placeholder="Password">
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-md-7 col-md-offset-5">					
+									<button type="submit" class="btn btn-warning center-block">Sign up for Twitter</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div><!-- Corp -->
+		<div class="container-fluid info">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-2">
+					<p>Got so stare at this all morning long. Can you believe it's winter? #Sydney #Sunrise</p>
+				
+				</div>
+			</div>
+		</div><!-- info -->
+		<script>
+			document.body.background="image/twitterfond1.jpg"
+			//Background Image Slideshow- (c) Dynamic Drive (www.dynamicdrive.com)
+			//For full source code, 100's more DHTML scripts, and TOS,
+			//visit http://www.dynamicdrive.com
+
+			//Specify background images to slide
+			var bgslides=new Array()
+			bgslides[0]="image/twitterfond0.jpg"
+			bgslides[1]="image/twitterfond1.jpg"
+			bgslides[2]="image/twitterfond2.jpg"
+
+			//Specify interval between slide (in miliseconds)
+			var speed=5000
+
+			//preload images
+			var processed=new Array()
+			for (i=0;i<bgslides.length;i++){
+			processed[i]=new Image()
+			processed[i].src=bgslides[i]
+			}
+
+			var inc=-1
+
+			function slideback(){
+			if (inc<bgslides.length-1)
+			inc++
+			else
+			inc=0
+			document.body.background=processed[inc].src
+			}
+
+			if (document.all||document.getElementById)
+			window.onload=new Function('setInterval("slideback()",speed)')
+
+		</script>
+  </body>
+</html>
+

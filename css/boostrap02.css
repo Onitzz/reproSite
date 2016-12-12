@@ -1,0 +1,60 @@
+body{
+	background-color:#fff;
+}
+
+.logo{
+	margin-top:100px;
+}
+
+#search{
+	width:80%;
+	height:40px;
+}
+.search{
+	margin-top:3px;
+}
+input{
+	border:none;
+	box-shadow:1px 3px 10px #aaa;
+}
+.container-fluid{
+	background-color:white;
+	color:black;
+}
+
+.jaune{
+	background-color:gold;
+	color:black;
+}
+
+.rouge{
+	background-color:red;
+	color:black;
+}
+
+.btn{
+	margin-top:7px;
+	border:none;
+	background-color:#f1f1f1;
+	color:#777;
+}
+
+.navbar{
+	margin:0;
+	line-height:50px;
+	border:none;
+}
+
+.navbar-fixed-bottom .col-md-2{
+	font-size:13px;
+	color: #777;
+}
+
+#lettre{
+	margin-top:10px;
+	color:white;
+	width:30px;
+	height:30px;
+	background-color:darkblue;
+	border-radius:50%;
+}

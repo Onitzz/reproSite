@@ -1,0 +1,147 @@
+html{
+	width:100%;
+}
+
+#welcom{
+	color:rgba(9,19,82,1);
+	font-size:20px;
+	font-weight:bold;
+}
+
+h1{
+	font-weight:bold;
+}
+
+h3{
+	font-size:18px;
+}
+
+body{
+	background: linear-gradient(white, #D3D8E8);
+}
+
+.navbar{
+	background-color:#3b5998;
+	background-image: linear-gradient(#4e69a2, #3b5998 50%);
+	min-height:82px;
+	border:none;
+	border-radius:0px;
+
+}
+
+.form-group{
+	margin-bottom:0;
+}
+
+#forgot{
+	line-height:20px;
+	font-size:13px;
+	color:#abc;
+}
+.navbar .btn{
+	background-color:rgba(89,119,212,0.5);
+	font-weight:bold;
+	margin-top:30px;
+	padding:0 8px 0 8px;
+	border-radius:2px;
+	border:1px solid #29487d;
+	margin-left:30px;
+	font-size:12px;
+}
+.navbar img{
+	width:170px;
+	line-height:80px;
+	margin-top:27px;
+}
+
+.navbar label{
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	color:white;
+	margin-top:10px;
+}
+
+.navbar input{
+	height:25px;
+	border:none;
+	border-radius:0;
+	border:1px solid rgba(0,0,0,0.8);
+}
+
+.radio-inline{
+	line-height:50px;
+}
+
+.radio-inline label{
+	font-size:18px;
+	font-weight:normal;
+}
+section{
+	margin-bottom:40px;
+}
+section input{
+	height:40px;
+	font-size:18px;
+	padding:0;
+	margin:0 0 5px 0;
+}
+
+section p{
+	font-size:12px;
+	color:#555;
+}
+section span{
+	font-weight:bold;
+	margin-top:40px;
+	color:#555;
+}
+
+section img{
+	width:100%;
+}
+
+.insc{
+	color:white;
+	background: linear-gradient(#67ae55, #578843);
+	background-color: #69a74e;
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border: 1px solid;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	letter-spacing: 1px;
+	position: relative;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);	
+}
+
+footer{
+	background-color:white;
+	padding-top:5px;
+	padding-bottom:20px;
+}
+
+footer li{
+	color:#666;
+	font-size:13px;
+}
+
+footer a{
+	color: #365899;
+	font-size:13px;
+}
+
+.rowul{
+	width:80%;
+	margin:auto;
+}
+table{
+	margin:auto;
+	width:100%;
+}
+td{
+	padding:0px 3px;;
+	font-size:12px;
+}
