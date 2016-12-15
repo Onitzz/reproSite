@@ -1,0 +1,139 @@
+#navbar1{
+  background: #000b15;
+  background: linear-gradient(#2d3841, #010c16);
+}
+.container {
+    width: 1070px;
+}
+.navbar-nav,.nav{
+  height:25px;
+	line-height:10px;
+	padding:0;
+	border:none;
+}
+
+.OBS{
+	margin-right:60px;
+}
+
+.navbar-nav > li > a,.nav > li > a{
+	padding:3px 9px;
+	border-left:1px solid rgba(255,255,255,0.3);
+	border-right:1px solid rgba(5,30,65,0.7);
+	font-size:11px;
+	height:24px;
+	color:#ddd;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover,.navbar-nav > li > a:hover,.navbar-nav > li > a:focus,.nav > li > a:hover,.nav > li > a:focus{
+	background-color:#000b15;
+	height:24px;
+}
+
+.navbar-nav > li > a.yellow,.nav > li > a.yellow{
+	background-color:#ffc600;
+	color:#000;
+	height:25px;
+	font-weight:bold;
+}
+    
+.dropdown-menu.columns-2 {
+	min-width: 400px;
+}
+
+.multi-column-dropdown {
+	list-style: none;
+}
+
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+
+#navbar2{
+	height:46px;
+	border-bottom:1px solid #ccc;
+}
+
+.scdnavcenter{
+	margin-top:10px;
+}
+
+input.form-control{
+	height:24px;
+	width:180px;
+	font-size:12px;
+	background-color:#f5f5f5;
+	box-shadow:none;
+	padding:3px 5px;
+}
+
+.form-group{
+	margin:auto;
+}
+
+.containlogo{
+	display:inline-block;
+	width:150px;
+}
+
+.nav > li > a.logo{
+    background: url("../image/sprite.png") no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 4px;
+    text-align: left;
+    cursor: pointer;
+    border:none;
+	padding:0;
+}
+.nav > li > a.fbcolor:hover{
+	background-position: -80px -40px;
+	opacity: 1;
+	border:none;
+	padding:0;
+}
+.nav > li > a.fbcolor{
+  background-position: -57px -140px;
+  opacity: 0.3;
+}
+.nav > li > a.twcolor:hover{
+	background-position: -80px -80px;
+	opacity: 1;
+}
+.nav > li > a.twcolor{
+  background-position: -58px -162px;
+  opacity: 0.3;
+}
+.nav > li > a.gocolor:hover{
+	background-position: -80px -120px;
+	opacity: 1;
+}
+.nav > li > a.gocolor{
+	background-position: -58px -184px;
+	opacity: 0.3;
+}
+.nav > li > a.instacolor:hover{
+	background-position: -58px -228px;
+	opacity: 1;
+}
+.nav > li > a.instacolor{
+	background-position: -58px -206px;
+	opacity: 0.3;
+}
+
+
+
