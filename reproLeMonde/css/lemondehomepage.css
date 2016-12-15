@@ -135,5 +135,171 @@ input.form-control{
 	opacity: 0.3;
 }
 
+#lienmenu2container{
+	line-height:40px;
+}
+
+.lienmenu2{
+	color:#aaa;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:5px;
+}
+
+.lienmenu2:hover{
+	color:#000;
+	text-decoration:none;
+}
+
+.floatnone{
+	float:none;
+}
+
+#logolemonde{
+	width:63%;
+}
+
+.navbar-nav > li > a.navbar3,.nav > li > a.navbar3{
+	padding:3px 9px;
+	border-left:1px solid rgba(0,0,0,0.2);
+	border-bottom:1px solid rgba(0,0,0,0.2);
+	border-right:1px solid rgba(5,30,65,0);
+	font-size:12px;
+	font-weight:bold;
+	height:32px;
+	color:#222;
+	line-height:23px;
+}
+
+
+#bleu1{
+	border-top:3px solid #0386c3;
+}
+
+#bleu1:hover{
+	background:#0386c3;
+	color:white;
+	opacity:50%;
+}
+
+#bleu2{
+	border-top:3px solid #1f0d67;
+}
+
+#bleu2:hover{
+	background:#1f0d67;
+	color:white;
+}
+
+#bleu3{
+	border-top:3px solid #0cb4ae;
+}
+
+#bleu3:hover{
+	background:#0cb4ae;
+	color:white;
+}
+
+#turquoise{
+	border-top:3px solid #06b586;
+}
+
+#turquoise:hover{
+	background:#06b586;
+	color:white;
+}
+
+#vert1{
+	border-top:3px solid #30932e;
+}
+
+#vert1:hover{
+	background:#30932e;
+	color:white;
+}
+
+#vert2{
+	border-top:3px solid #6faa12;
+}
+
+#vert2:hover{
+	background:#6faa12;
+	color:white;
+}
+
+#rouge1{
+	border-top:3px solid #d50303;
+}
+
+#rouge1:hover{
+	background:#d50303;
+	color:white;
+}
+
+#rouge2{
+	border-top:3px solid #fe2f2f;
+}
+
+#rouge2:hover{
+	background:#fe2f2f;
+	color:white;
+}
+
+#rose{
+	border-top:3px solid #f20559;
+}
+
+#rose:hover{
+	background:#f20559;
+	color:white;
+}
+
+#orange{
+	border-top:3px solid #ff6e17;
+}
+
+#orange:hover{
+	background:#ff6e17;
+	color:white;
+}
+
+#jaune{
+	border-top:3px solid #ccaa00;
+	background-color:#ffc600;
+}
+
+#jaune:hover{
+	background:#2e3942;
+	color:white;
+}
+
+#grishome{
+	border-top:3px solid #a2a9ae;
+}
+
+#grishome:hover{
+	background:#2e3942;
+	color:white;
+}
+
+#gris{
+	border-top:3px solid #2e3942;
+}
+
+#gris:hover{
+	background:#2e3942;
+	color:white;
+}
+
+
+#black{
+	border-top:3px solid #2e3942;
+}
+
+#black:hover{
+	background:#fff;
+	color:black;
+}
+
 
 
