@@ -368,7 +368,7 @@ input.form-control{
     background: rgba(0,0,0,0);
     color: #CB2626;
 }
-#temoignage,#continu{
+#temoignage,#continu,#partage,#abonnement{
 	border:1px solid #dfdfdf;
 	background-color:#fafbfc;
 	margin-top:20px;
@@ -410,7 +410,7 @@ input.form-control{
 }
 
 #continu li{
-	margin-top:5px;
+	margin-top:8px;
 	font-size:12px;
 	color:#666
 }
@@ -462,11 +462,265 @@ input.form-control{
 	border:3px solid #eee;
 }
 
+#pub{
+	margin:20px 0;
+}
+
+#partage .entete{
+	background-color:#3b5998;
+	height:25px;
+}
 
 
+#partage p{
+	color:white;
+	line-height:25px;
+	font-size:13px;
+	font-weight:bold;
+	padding-left:20px;
+}
+
+#partage span{
+	color:#999;
+	background-color:#eee;
+	padding:1px 4px;
+	font-size:11px;
+}
+
+.onepartage{
+ 	padding:10px 0px;
+ 	border-bottom:1px solid #dfdfdf;
+ }
+
+.onepartagelast{
+ 	padding:10px 0px;
+ 	border-bottom:0px solid #dfdfdf;
+ }
+
+#partage a{
+	font-size:13px;
+	color:#003366;
+}
+
+#reseauxsociaux a.logo{
+    background: url("../image/sprite.png") no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 4px;
+    text-align: left;
+    cursor: pointer;
+}
+
+#reseauxsociaux .suiveznous{
+	line-height:40px;
+
+}
+
+#reseauxsociaux a.fbcolor{
+	background-position: -80px -40px;
+	opacity: 1;
+}
+
+#reseauxsociaux a.twcolor{
+	background-position: -80px -80px;
+	opacity: 1;
+}
+
+#reseauxsociaux a.gocolor{
+	background-position: -80px -120px;
+	opacity: 1;
+}
+
+#reseauxsociaux a.instacolor{
+	background-position: -58px -228px;
+	opacity: 1;
+}
+
+#reseauxsociaux a.mobilcolor{
+	background-position: -80px -160px;
+	opacity: 1;
+}
+
+#reseauxsociaux a.rsscolor{
+	background-position: -80px -200px;
+	opacity: 1;
+}
+
+#reseauxsociaux{
+	padding:0 10px;
+	border:1px solid #dfdfdf;
+	border-top:0px solid #fff;
+	background-color:white;
+	box-shadow:0px -2px 5px #eee;
+	position:relative;
+	bottom:0px;
+	height:40px;
+	width:100%;
+}
+
+#reseauxsociaux .containlogo{
+	display:inline-block;
+	width:100%;
+}
+
+#abonnement .imageabonne{
+	width:75%;
+}
+
+#abonnement a{
+	height:100%;
+	width:75%;
+}
+
+#img1{
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#img2{
+	position:absolute;
+	top:20px;
+	left:25px;
+}
+
+#img3{
+	position:absolute;
+	top:40px;
+	left:50px;
+}
+#abonnement{
+	margin-top:0;
+}
+#enteteabo{	
+	margin-top:60px;
+	height:24px;
+	background-color:#ffc600;	
+	padding: 1px 10px;
+}
+
+#enteteabo h2{
+	font-weight:normal;
+	color:black;
+	padding:0px 10px;
+	margin:0;
+	line-height:24px;
+	font-family:arial, sans-serif;
+}
+
+#enteteabo h2 span{
+	font-weight:bold;
+}
+
+#datejour{
+	height:35px;
+	border-bottom:1px solid #eee;
+	padding:0px 10px;
+}
+
+#datejour span{
+	height:35px;
+	line-height:35px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#abonnement hr{
+	border:1px solid #eee;
+}
+
+#previsu img{
+	margin-top:10px;
+	box-shadow:0px 0px 4px #bbb;
+}
+
+#abonnement #pied p{
+	color:#888;
+	font-size:13px;
+}	
+
+.btn-jaune{
+	background-color:#ffc600;
+	height:25px;
+	padding-top:0px;
+	color:black;
+	font-weight:bold;
+	font-size:13px;
+	line-height:25px;
+}
+
+#annonceauto{
+	margin-top: 20px;
+	background-color:#2e3942;
+}
+
+#annonceauto li,#annonceauto a{
+	font-weight:bold;
+	border:none;
+}
+#annonceauto .active{
+	background-color:#fff;
+}
+
+#annonceauto .active a{
+	color:#333;
+}
+
+#annonceauto img{
+	margin-top:10px;
+	width:40%;
+	float:left;
+	margin-right:10px;
+}
+
+#annonceauto .last{
+	margin:0px;
+	height:100%;
+	width:auto;
+}
+
+.cont{
+	background-color:white;
+}
+
+#blockvideo{
+	background: #000b15;
+	border-color: #2e3942;
+	margin:20px auto;
+}
+
+#blockvideo h2{
+	font-size:16px;
+	font-weight:bold;
+	font-family: 'Roboto Slab', serif;	
+	color:white;
+}
+
+#blockvideo a{
+	color:#fff;
+	font-weight:bold;
+}
+
+#blockvideo a img{
+	margin-bottom:10px;
+}
+
+#blockvideo a:hover{
+	color:#aaa;
+	text-decoration:none;
+}
 
 
+#blockvideo > div:last-child{
+	color:#fff;
+	font-weight:bold;
+	border-top:1px solid #eef1f5;
+}
 
-
-
-
+#blockvideo > div:first-child{
+	border-bottom:1px solid #eef1f5;
+	margin-bottom:10px;
+}
