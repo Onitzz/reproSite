@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/exo-06.css" />
+  </head>
+  <body>
+
+	<!-- 
+	documentez les fonctionnalités de bootstrap
+	
+	# pour chaque section
+	utilisez une mise en page 1/3 + 2/3 :
+	- dans la colonne 1/3 : le titre
+	- dans la colonne 2/3 : la description de la fonctionnalité
+	puis faites l'exo en dessous
+
+	attention : utilisez la classe `container` (et pas `container-fluid`) sur tous les exos
+
+	# section 1
+	faites une mise en page en 1 colonne de largeur de 4, centrée, en écran sm
+	qui se transforme en 1 colonne de largeur de 3, centrée, en écran md
+	dans la colonne, insérez un formulaire :
+	- nom
+	- date de naissance (un seul champ input, pas de select ou autre)
+	- adresse
+	- code postal
+	- localité
+	- bouton de validation
+
+	chaque champ doit avoir un label qui sera positionné au dessus du champ
+-->
+
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4 col-md-3 center-block centerdiv blue">
+				<form>
+					<div class="form-group">
+						<label for="nom">Votre Nom</label>
+						<input type="text" class="form-control" id="nom" placeholder="Nom">
+					</div>
+					<div class="form-group">
+						<label for="date">Date de naissance</label>
+						<input type="date" class="form-control" id="date" placeholder="Date de naissance">
+					</div>
+					<div class="form-group">
+						<label for="adresse">Adresse</label>
+						<input type="text" class="form-control" id="adresse" placeholder="Adresse">
+					</div>
+					<div class="form-group">
+						<label for="cp">Code postal</label>
+						<input type="text" class="form-control" id="cp" placeholder="Code postal">
+					</div>
+					<div class="form-group">
+						<label for="loc">Localité</label>
+						<input type="text" class="form-control" id="loc" placeholder="Localité">
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+ <!--
+	# section 2
+	reprenez le formulaire de la section 1 et
+	mettez certains champs en mode validé et d'autres en mode erreur
+-->
+<hr/>
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4 col-md-3 center-block centerdiv blue">
+				<form>
+					<div class="form-group">
+						<label for="nom">Votre Nom</label>
+						<input type="text" class="form-control" id="nom" placeholder="Nom">
+					</div>
+					<div class="form-group has-success">
+						<label for="date">Date de naissance</label>
+						<input type="date" class="form-control" id="date" placeholder="Date de naissance">
+					</div>
+					<div class="form-group has-error">
+						<label for="adresse">Adresse</label>
+						<input type="text" class="form-control" id="adresse" placeholder="Adresse">
+					  <span id="helpBlock2" class="help-block">Le champ doit ê	tre renseigné.</span>
+					</div>
+					<div class="form-group">
+						<label for="cp">Code postal</label>
+						<input type="text" class="form-control" id="cp" placeholder="Code postal">
+					</div>
+					<div class="form-group">
+						<label for="loc">Localité</label>
+						<input type="text" class="form-control" id="loc" placeholder="Localité">
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+<!--
+	# section 3
+	reprenez le formulaire de la section 1 mais, cette fois-ci,
+	mettez tous les labels dans une colonne `col-sm-2`,
+	et tous les champs dans une colonne `col-sm-10`
+
+	le labels doivent être ferrés (alignés) à droite
+	
+	hint : horizontal form
+-->
+<hr/>
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4 col-md-9 center-block centerdiv blue container">
+				<form class="form-horizontal">
+					<div class="row form-group">
+						<div class="col-sm-2 control-label">
+							<label>Nom</label>
+						</div>	
+						<div class="col-sm-10">
+							<input type="text" name="nom" class="form-control" placeholder="Nom">
+						</div>
+					</div>
+					
+					<div class="row form-group">
+						<div class="col-sm-2 control-label">
+							<label>Date de naissance</label>
+						</div>	
+						<div class="col-sm-10">
+							<input type="text" name="dateNaissance" class="form-control" placeholder="Date de naissance">
+							</div>
+					</div>
+					
+					<div class="row form-group">
+						<div class="col-sm-2 control-label">	
+							<label>Adresse</label>
+						</div>	
+						<div class="col-sm-10">
+							<input type="text" name="Code Postal" class="form-control" placeholder="Code Postal">
+						</div>
+					</div>
+					
+					<div class="row form-group">
+						<div class="col-sm-2 control-label">
+							<label>Code Postal</label>
+						</div>	
+						<div class="col-sm-10">
+							<input type="text" name="Code Postal" class="form-control" placeholder="Code Postal">
+							</div>
+					</div>
+					
+					<div class="row form-group">
+						<div class="col-sm-2 control-label">
+							<label class="control-label">Localité</label>
+						</div>	
+						<div class="col-sm-10">
+							<input type="text" name="loc" class="form-control" placeholder="Localité">
+							</div>
+					</div>
+					<input type="submit" class="form-control" value="envoyer">
+				</form>
+			</div>
+		</div>
+	</section>
+
+<!--	
+	# section 4
+	faites une mise en page en 1 colonne (toutes tailles)
+	dans la colonne insérer un formulaire :
+	- date (3 champs selects jour, mois et année)
+	- heure (2 champs selects heure et minutes)
+	- bouton de validation
+	
+	chaque champ doit avoir un label qui sera positionné au dessus du champ
+	les selects ne doivent pas occuper 100% de la largeur du conteneur
+	
+	hint : `width: auto;`
+-->
+
+<section>
+	<form class="container">
+		<div class="form-group">
+			<div>
+				<label>Date</label>
+			</div>
+			<select class="form-control select-auto-width">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="1">8</option>
+				<option value="2">9</option>
+				<option value="3">10</option>
+				<option value="4">11</option>
+				<option value="5">12</option>
+				<option value="6">13</option>
+				<option value="7">14</option>
+				<option value="1">15</option>
+				<option value="2">16</option>
+				<option value="3">17</option>
+				<option value="4">18</option>
+				<option value="5">19</option>
+				<option value="6">20</option>
+				<option value="7">21</option>
+				<option value="1">22</option>
+				<option value="2">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+			</select>
+			<select class="form-control select-auto-width">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+			</select>
+			<select class="form-control select-auto-width">
+				<option value="2000">2000</option>
+				<option value="2001">2001</option>
+				<option value="2002">2002</option>
+				<option value="2003">2003</option>
+				<option value="2004">2004</option>
+				<option value="2005">2005</option>
+				<option value="2006">2006</option>
+			</select>
+		</div><!-- Fin de date -->
+		<div class="form-group">
+			<div>
+				<label>Heure</label>
+			</div>
+			<select class="form-control select-auto-width" name="heure">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="1">8</option>
+				<option value="2">9</option>
+				<option value="3">10</option>
+				<option value="4">11</option>
+				<option value="5">12</option>
+				<option value="6">13</option>
+				<option value="7">14</option>
+				<option value="1">15</option>
+				<option value="2">16</option>
+				<option value="3">17</option>
+				<option value="4">18</option>
+				<option value="5">19</option>
+				<option value="6">20</option>
+				<option value="7">21</option>
+				<option value="1">22</option>
+				<option value="2">23</option>
+			</select>
+			<select class="form-control select-auto-width" name="minute">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+			</select>
+		</div><!-- Fin de heure -->
+	</form>
+</section>
+
+<!--
+	# section 5
+	faites une mise en page en 1 colonne (toutes tailles)
+	dans la colonne insérer un formulaire :
+	- login
+	- password
+	- case à cocher « se souvenir de moi »
+	- bouton de validation
+	
+	tous les champs doivent être sur une seule ligne
+	
+	hint : inline form
+
+	-->
+		<section class="container">
+			<div class="row">
+				<form class="form-inline">
+					<div class="form-group">
+						<label class="sr-only" for="email">Votre adresse mail</label>
+						<input type="email" class="form-control" id="placeholder" placeholder="Email">
+					</div>
+					<div class="form-group">
+						<label class="sr-only" for="exampleInputPassword3">Votre mot de passe</label>
+						<input type="password" class="form-control" id="exampleInputPassword3" placeholder="Mot de passe">
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox"> <span>Se souvenir de moi</span>
+						</label>
+					</div>
+					<button type="submit" class="btn btn-default">Connexion</button>
+				</form>
+			</div>
+		</section><br/><br/>
+  </body>
+</html>

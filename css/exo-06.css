@@ -1,9 +1,23 @@
-.red{
-	background-color:red;
-	margin:0;
-	width:100%;
-}
 .blue{
-	background-color:blue;
+	background-color:#ff9;
+}
 
+.red{
+	background-color:#f1f;
+
+}
+@media screen and (min-width:768px){
+	.centerdiv{
+		float:none;
+	}
+}
+
+.select-auto-width{
+	width:auto;
+	display:inline-block;
+}
+
+.form-inline .checkbox label span{
+	position:relative;
+	top:-1px;
 }
